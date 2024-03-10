@@ -1,0 +1,7 @@
+
+# python editing environment
+pip install ipython pdbpp 'python-lsp-server[all]' pylsp-mypy pylsp-rope rope pyls-isort python-lsp-black
+
+
+# emacs config
+echo "$(realpath ./.direnv/python-*)" > .auto-virtualenv-custom-virtualenv-path

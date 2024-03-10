@@ -1,0 +1,9 @@
+use asdf
+layout python
+
+path_add PYTHONPATH $(realpath ./src)
+watch_file requirements.txt
+
+pip install -r ./requirements.txt
+pip install -r ./qa.requirements.txt
+
